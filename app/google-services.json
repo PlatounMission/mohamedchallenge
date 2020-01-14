@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "136242282361",
+    "firebase_url": "https://platoun-2020.firebaseio.com",
+    "project_id": "platoun-2020",
+    "storage_bucket": "platoun-2020.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:136242282361:android:c9451e39958b1e6531f9a8",
+        "android_client_info": {
+          "package_name": "momunity.com.platoun"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "136242282361-iknh47c76j6acans23pl2f3jjl24m3te.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOQQVQidcATzla4P5AwWaJ_1-xSSi4RD4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "136242282361-iknh47c76j6acans23pl2f3jjl24m3te.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
