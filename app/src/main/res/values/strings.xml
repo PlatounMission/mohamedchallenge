@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Platoun</string>
+
+
+    <string name="nav_header_title">Mon compte</string>
+    <string name="menu_friends">Amis &amp; plus</string>
+    <string name="menu_group">Statut mes groupes</string>
+    <string name="menu_profil">Mon profil</string>
+    <string name="menu_favorite">Liste des favoris</string>
+
+    <string name="categories">Catégories</string>
+    <string name="type_of_deals">Type de offres</string>
+    <string name="see_the_offre">Voir les offres</string>
+
+
+    <!-- Used in NavigationDrawer -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>

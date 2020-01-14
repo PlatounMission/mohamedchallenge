@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="180dp"
+    android:layout_height="400dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginBottom="8dp"
+    android:background="?android:selectableItemBackground"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/tvDiscount"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/background_percent_rounded"
+        android:gravity="center"
+        android:text="- 8 %"
+        android:textColor="@color/white" />
+
+    <RelativeLayout
+        android:layout_width="172dp"
+        android:layout_height="200dp">
+
+        <ImageView
+            android:id="@+id/itemImage"
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/product_stroller_1" />
+
+        <Button
+            android:id="@+id/btnLike"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerVertical="false"
+            android:scaleType="fitCenter"
+            android:background="@drawable/background_button_like" />
+
+        <ImageView
+            android:id="@+id/ivNote"
+            android:layout_width="95dp"
+            android:layout_height="14dp"
+            android:layout_alignParentBottom="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/note" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/itemImage"
+        android:padding="5dp"
+        android:text="Dorothy Perkins"
+        android:textColor="#A5A5A5"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tvTitle2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/itemImage"
+        android:paddingLeft="5dp"
+        android:paddingBottom="5dp"
+        android:text="Evening Dress"
+        android:layout_marginBottom="8dp"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="180dp"
+        android:layout_height="35dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnSoloPrice"
+            android:layout_width="76dp"
+            android:layout_height="28dp"
+            android:layout_marginEnd="6dp"
+            android:background="@drawable/background_button_solo"
+            android:drawableStart="@drawable/button_icon_solo"
+            android:paddingStart="10dp"
+            android:text="315$"
+            android:textColor="@color/text_color_button_solo" />
+
+        <Button
+            android:id="@+id/btnGroupPrice"
+            android:layout_width="76dp"
+            android:layout_height="28dp"
+            android:background="@drawable/background_button_group"
+            android:drawableStart="@drawable/button_icon_group"
+            android:paddingLeft="10dp"
+            android:text="290$"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
